@@ -99,5 +99,64 @@
     "image":"https://upload.wikimedia.org/wikipedia/en/a/a7/Chrono_Trigger.jpg",
     "status": "active",
     "platform":"rg350"
+  },
+  {
+    "name": "Zelda - A Link to the Past",
+    "image":"https://images-na.ssl-images-amazon.com/images/I/513hbHV0T4L._SX425_.jpg",
+    "status": "active",
+    "platform":"rg350"
+  },
+  {
+    "name": "Stranded Deep",
+    "image":"https://miro.medium.com/max/1400/1*smGiee9AzHlbqjrWmEGGDQ@2x.jpeg",
+    "status": "",
+    "platform":"mac",
+    "launcher":"steam"
+  },
+  {
+    "name": "Starbound",
+    "image":"https://hb.imgix.net/706c69fa24708ff0343da6845955d01a5f5632d3.jpeg?auto=compress,format&fit=crop&h=353&w=616&s=570be69ff14c80292c8ee96e00933e57",
+    "status": "active",
+    "platform":"mac",
+    "launcher":"steam"
+  },
+  {
+    "name": "What The Golf?!",
+    "image":"https://cdn03.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_WhatTheGolf.jpg",
+    "status": "active",
+    "platform":"mac",
+    "launcher":"steam"
+  },
+  {
+    "name": "Space Crew",
+    "image":"https://steamcdn-a.akamaihd.net/steam/apps/1176710/header.jpg?t=1603443807",
+    "status": "active",
+    "platform":"mac",
+    "launcher":"steam"
+  },
+  {
+    "name": "Deponia Doomsday",
+    "image":"https://steamcdn-a.akamaihd.net/steam/apps/421050/header.jpg?t=1568412889",
+    "status": "active",
+    "platform":"mac",
+    "launcher":"steam"
+  },
+  {
+    "name": "Final Fantasy VI",
+    "image":"https://hb.imgix.net/61bff793180c2c360d4418d3bc02ca97bc6c5c8d.jpeg?auto=compress,format&fit=crop&h=353&w=616&s=aa4a61a4348a0e56c282e69b93445251",
+    "status": "",
+    "platform":"rg350"
+  },
+  {
+    "name": "Secret of Mana",
+    "image":"https://steamcdn-a.akamaihd.net/steam/apps/637670/capsule_616x353.jpg?t=1588178825",
+    "status": "",
+    "platform":"rg350"
+  },
+  {
+    "name": "Secret of Evermore",
+    "image":"https://upload.wikimedia.org/wikipedia/en/9/99/Secret_of_Evermore.jpg",
+    "status": "",
+    "platform":"rg350"
   }
 ]

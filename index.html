@@ -8,17 +8,37 @@
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000">
     <meta name="msapplication-TileColor" content="#000000">
     <meta name="theme-color" content="#ffffff">
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta charset='UTF-8'>
+    <meta name="application-name" content="My Playlist">
+    <meta name='author' content='Dominik Sigmund'>
+    <meta name='publisher' content='Dominik Sigmund'>
+    <meta name='copyright' content='Dominik Sigmund'>
+    <meta name='page-topic' content='Forschung Technik'>
+    <meta name='page-type' content='HTML-Formular'>
+    <meta name='audience' content='All'>
+    <meta name='description' content='My Playlist - Show what you are Gaming!'>
+    <meta name='keywords' content='Gaming, Steam, Origin, Games, Platform, list'>
+    <meta http-equiv='content-language' content='en'>
+    <meta name='robots' content='index, follow'>
+    <meta name='DC.Creator' content='Dominik Sigmund'>
+    <meta name='DC.Publisher' content='Dominik Sigmund'>
+    <meta name='DC.Rights',content='Dominik Sigmund'>
+    <meta name='DC.Language' content='en'>
+    <meta name='DC.Description' content='My Playlist - Show what you are Gaming!'>
+    <meta property='og:type' content='website'>
+    <meta property='og:title' content='My Playlist'>
+    <meta property='og:url' content='https://playlist.dominik-sigmund.de'>
+    <meta property='og:image' content='https://playlist.dominik-sigmund.de/apple-touch-icon.png'>
+    <meta property='og:description' content='My Playlist - Show what you are Gaming!'>
+    <meta name='twitter:card' content='summary_large_image'>
+    <meta name='twitter:site' content='https://playlist.dominik-sigmund.de'>
+    <meta name='twitter:title' content='My Playlist'>
+    <meta name='twitter:image' content='https://playlist.dominik-sigmund.de/apple-touch-icon.png'>
+    <meta name='twitter:description', content='My Playlist - Show what you are Gaming!'>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script>
-      let platforms = {
-        windows: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Windows_logo_-_2012.png/700px-Windows_logo_-_2012.png",
-        mac: "https://banner2.cleanpng.com/20180204/gbw/kisspng-macintosh-mac-os-x-lion-macos-macbook-operating-sy-apple-logo-5a77a762126b40.8775341115177910740755.jpg",
-        rg350: "https://images.vexels.com/media/users/3/153179/isolated/preview/881cfd8396ce447e2509fdc76618d870-handheld-spielekonsole-symbol-by-vexels.png"
-      }
-      let launchers = {
-        steam: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Steam_icon_logo.svg/1024px-Steam_icon_logo.svg.png",
-        origin: "https://assets.stickpng.com/thumbs/5b447f12e99939b4572e32c0.png"
-      }
       $( document ).ready(function() {
         $.getJSON('./playlist.json', function(data) {
           for (const game of data) {
@@ -59,14 +79,11 @@
             }
             camps += '</ul>'
           }
-          let platform = `<img class="icon" src="${platforms[game.platform]}" alt="${game.platform}"/>`
-          let launcher = game.launcher ? `<img class="icon" src="${launchers[game.launcher]}" alt="${game.launcher}"/>`: ''
+          let platform = `<img class="icon" src="assets/platforms/${game.platform}.png" alt="${game.platform}"/>`
+          let launcher = game.launcher ? `<img class="icon" src="assets/launchers/${game.launcher}.png" alt="${game.launcher}"/>`: ''
           return `<div class="col">
                     <div class="card" style="width: 18rem;">
                       <img src="${game.image}" class="card-img-top" alt="${game.name}">
-                      <div class="card-body">
-                        <h5 class="card-title">${game.name}</h5>
-                      </div>
                       ${camps}
                       <div class="card-footer text-muted text-center">${platform} ${launcher}</div>
                     </div>
@@ -88,13 +105,13 @@
       <h1><img class="icon" src="icon.png" alt="Logo"/> My Playlist</h1>
       <hr/>
       <h2>Active Games</h2>
-      <div id="active" class="row row-cols-1 row-cols-md-3 g-4"></div>
+      <div id="active" class="row row-cols-1 row-cols-md-4 g-4"></div>
       <hr/>
       <h2>To Play</h2>
-      <div id="toplay" class="row row-cols-1 row-cols-md-3 g-4"></div>
+      <div id="toplay" class="row row-cols-1 row-cols-md-4 g-4"></div>
       <hr/>
       <h2>Done</h2>
-      <div id="done" class="row row-cols-1 row-cols-md-3 g-4"></div>
+      <div id="done" class="row row-cols-1 row-cols-md-4 g-4"></div>
     </div>
   </body>
 </html>
