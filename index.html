@@ -38,6 +38,7 @@
     <meta name='twitter:image' content='https://playlist.dominik-sigmund.de/apple-touch-icon.png'>
     <meta name='twitter:description', content='My Playlist - Show what you are Gaming!'>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="bootstrap-sortable.js"></script>
     <script>
       $( document ).ready(function() {
         $.getJSON('./playlist.json', function(data) {
@@ -53,7 +54,18 @@
                 $('#toplay').append(htmlCard(game))
                 break;
             }
+            let launcher = game.launcher || ''
+            let table_row = `
+            <tr>
+              <td>${game.name}</td>
+              <td>${game.platform}</td>
+              <td>${launcher}</td>
+              <td>${game.status}</td>
+            </tr>
+          `
+          $('#table_content').append(table_row)
           }
+          $.bootstrapSortable({ applyLast: true })
         })
         function htmlCard(game) {
           let camps = ''
@@ -92,6 +104,7 @@
       })
     </script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.3/gh-fork-ribbon.min.css" />
+    <link rel="stylesheet" href="bootstrap-sortable.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <style>
       .icon {
@@ -113,6 +126,21 @@
       <hr/>
       <h2>Done</h2>
       <div id="done" class="row row-cols-1 row-cols-md-4 g-4"></div>
+      <hr/>
+      <table class="table table-striped table-hover sortable">
+        <caption>My Games as sortable Table</caption>
+        <thead>
+          <tr>
+            <th scope="col">Title</th>
+            <th scope="col">Platform</th>
+            <th scope="col">Launcher</th>
+            <th scope="col">Status</th>
+          </tr>
+        </thead>
+        <tbody id="table_content">
+
+        </tbody>
+      </table>
     </div>
   </body>
 </html>
