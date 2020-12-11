@@ -134,12 +134,12 @@
     "campaings": [
       {
         "name":"China",
-        "image":"https://static.wikia.nocookie.net/cnc/images/f/fc/China.gif/revision/latest/scale-to-width-down/340?cb=20100925123413",
+        "image":"https://static.wikia.nocookie.net/cnc/images/f/fc/China.gif",
         "status":""
       },
       {
         "name":"GLA",
-        "image":"https://static.wikia.nocookie.net/cnc/images/7/7c/Gla.gif/revision/latest/top-crop/width/360/height/450?cb=20101128091822",
+        "image":"https://static.wikia.nocookie.net/cnc/images/7/7c/Gla.gif",
         "status":""
       },
       {
@@ -151,19 +151,19 @@
   },
   {
     "name": "Command & Conquer: Generals: Zero Hour",
-    "image":"https://static.wikia.nocookie.net/cnc/images/2/20/Cncgzh-win-cover.jpg/revision/latest?cb=20170714200121",
+    "image":"https://static.wikia.nocookie.net/cnc/images/2/20/Cncgzh-win-cover.jpg",
     "status": "",
     "platform":"windows",
     "launcher":"origin",
     "campaings": [
       {
         "name":"China",
-        "image":"https://static.wikia.nocookie.net/cnc/images/f/fc/China.gif/revision/latest/scale-to-width-down/340?cb=20100925123413",
+        "image":"https://static.wikia.nocookie.net/cnc/images/f/fc/China.gif",
         "status":""
       },
       {
         "name":"GLA",
-        "image":"https://static.wikia.nocookie.net/cnc/images/7/7c/Gla.gif/revision/latest/top-crop/width/360/height/450?cb=20101128091822",
+        "image":"https://static.wikia.nocookie.net/cnc/images/7/7c/Gla.gif",
         "status":""
       },
       {
@@ -192,14 +192,14 @@
       },
       {
         "name":"Scrin",
-        "image":"https://static.wikia.nocookie.net/cnc/images/2/27/CNCKW_Scrin_logo.png/revision/latest/top-crop/width/360/height/450?cb=20110611193457",
+        "image":"https://static.wikia.nocookie.net/cnc/images/2/27/CNCKW_Scrin_logo.png",
         "status":""
       }
     ]
   },
   {
     "name": "Command & Conquer 3: Tiberium Wars: Kane's Wrath",
-    "image":"https://static.wikia.nocookie.net/cnc/images/3/36/Cc3kw-win-cover.jpg/revision/latest/top-crop/width/360/height/450?cb=20170928160358",
+    "image":"https://static.wikia.nocookie.net/cnc/images/3/36/Cc3kw-win-cover.jpg",
     "status": "",
     "platform":"windows",
     "launcher":"origin",
@@ -216,7 +216,7 @@
       },
       {
         "name":"Scrin",
-        "image":"https://static.wikia.nocookie.net/cnc/images/2/27/CNCKW_Scrin_logo.png/revision/latest/top-crop/width/360/height/450?cb=20110611193457",
+        "image":"https://static.wikia.nocookie.net/cnc/images/2/27/CNCKW_Scrin_logo.png",
         "status":""
       }
     ]
@@ -240,14 +240,14 @@
       },
       {
         "name":"Empire",
-        "image":"https://static.wikia.nocookie.net/cnc/images/d/df/RisingSunFlag.jpg/revision/latest/top-crop/width/360/height/450?cb=20200710075552",
+        "image":"https://static.wikia.nocookie.net/cnc/images/d/df/RisingSunFlag.jpg",
         "status":""
       }
     ]
   },
   {
     "name": "Command & Conquer - Red Alert 3: Uprising",
-    "image":"https://static.wikia.nocookie.net/cnc/images/4/4a/RA3UprisingPack.jpg/revision/latest?cb=20170928161736",
+    "image":"https://static.wikia.nocookie.net/cnc/images/4/4a/RA3UprisingPack.jpg",
     "status": "",
     "platform":"windows",
     "launcher":"origin",
@@ -264,7 +264,7 @@
       },
       {
         "name":"Empire",
-        "image":"https://static.wikia.nocookie.net/cnc/images/d/df/RisingSunFlag.jpg/revision/latest/top-crop/width/360/height/450?cb=20200710075552",
+        "image":"https://static.wikia.nocookie.net/cnc/images/d/df/RisingSunFlag.jpg",
         "status":""
       }
     ]
