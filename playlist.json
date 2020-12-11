@@ -303,6 +303,83 @@
     "launcher":"steam"
   },
   {
+    "name": "Company of Heroes",
+    "image":"https://steamcdn-a.akamaihd.net/steam/apps/4560/header.jpg?t=1573488196",
+    "status": "",
+    "platform":"windows",
+    "launcher":"steam"
+  },
+  {
+    "name": "Age of Empires III",
+    "image":"https://images-na.ssl-images-amazon.com/images/I/816j0DlFr2L._SY445_.jpg",
+    "status": "",
+    "platform":"windows",
+    "launcher":"steam"
+  },
+  {
+    "name": "World in Conflict",
+    "image":"https://upload.wikimedia.org/wikipedia/en/4/48/Wic-win-cover.jpg",
+    "status": "",
+    "platform":"windows",
+    "launcher":"steam"
+  },
+  {
+    "name": "World in Conflict - Soviet Assault",
+    "image":"https://images-na.ssl-images-amazon.com/images/I/810zegT4SbL._SY445_.jpg",
+    "status": "",
+    "platform":"windows",
+    "launcher":"steam"
+  },
+  {
+    "name": "Rise of Nations",
+    "image":"https://upload.wikimedia.org/wikipedia/en/d/d0/Rise_of_Nations_Coverart.png",
+    "status": "",
+    "platform":"windows",
+    "launcher":"steam"
+  },
+  {
+    "name": "Empire Earth",
+    "image":"https://4images.cgames.de/images/gamestar/4/empire-earth_1779113.jpg",
+    "status": "",
+    "platform":"windows",
+    "launcher":"steam"
+  },
+  {
+    "name": "Empire Earth II",
+    "image":"https://m.media-amazon.com/images/I/51JXTJ9XNRL._SY445_.jpg",
+    "status": "",
+    "platform":"windows",
+    "launcher":"steam"
+  },
+  {
+    "name": "Empire Earth III",
+    "image":"https://images-na.ssl-images-amazon.com/images/I/51Suy-gkKnL._AC_SY445_.jpg",
+    "status": "",
+    "platform":"windows",
+    "launcher":"steam"
+  },
+  {
+    "name": "Dungeon Siege III",
+    "image":"https://images-na.ssl-images-amazon.com/images/I/91gKBVVBu9L._AC_SL1500_.jpg",
+    "status": "",
+    "platform":"windows",
+    "launcher":"steam"
+  },
+  {
+    "name": "Assasins Creed IV - Black Flag",
+    "image":"https://store-images.s-microsoft.com/image/apps.52808.69748098540497451.a03a4b64-603b-49b8-8644-4924ac7f3076.9ce9e6d0-f086-4b7e-a6fc-a75551e5d0d5",
+    "status": "",
+    "platform":"windows",
+    "launcher":"steam"
+  },
+  {
+    "name": "Ace Combat Assault Horizon",
+    "image":"https://images-na.ssl-images-amazon.com/images/I/51VVUR1aAKL._SY445_.jpg",
+    "status": "",
+    "platform":"windows",
+    "launcher":"steam"
+  },
+  {
     "name": "Chrono Trigger",
     "image":"https://upload.wikimedia.org/wikipedia/en/a/a7/Chrono_Trigger.jpg",
     "status": "active",
