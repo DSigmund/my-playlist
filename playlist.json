@@ -1,0 +1,103 @@
+[
+  {
+    "name": "Command & Conquer - Tiberium Dawn",
+    "image":"https://static.wikia.nocookie.net/cnc/images/7/7a/Cnctd-win-cover.jpg",
+    "status": "done",
+    "platform":"windows",
+    "launcher":"origin",
+    "campaings": [
+      {
+        "name":"GDI",
+        "image":"https://cdn.cnc-comm.com/assets/tiberian-sun/gdi.png",
+        "status":"done"
+      },
+      {
+        "name":"NOD",
+        "image":"https://cdn.cnc-comm.com/assets/tiberian-sun/nod.png",
+        "status":"done"
+      }
+    ]
+  },
+  {
+    "name": "Command & Conquer - Red Alert",
+    "image":"https://cdn.cnc-comm.com/assets/red-alert/rascan-thumb.png",
+    "status": "active",
+    "platform":"windows",
+    "launcher":"origin",
+    "campaings": [
+      {
+        "name":"sowjets",
+        "image":"https://cdn.cnc-comm.com/assets/red-alert/soviet.png",
+        "status":"active"
+      },
+      {
+        "name":"allied",
+        "image":"https://cdn.cnc-comm.com/assets/red-alert/allies.png",
+        "status":""
+      }
+    ]
+  },
+  {
+    "name": "Command & Conquer - Tiberian Sun",
+    "image":"https://cdn.cnc-comm.com/assets/tiberian-sun/tsbox-thumb.png",
+    "status": "",
+    "platform":"windows",
+    "launcher":"origin",
+    "campaings": [
+      {
+        "name":"GDI",
+        "image":"https://cdn.cnc-comm.com/assets/tiberian-sun/gdi-thumb.png",
+        "status":""
+      },
+      {
+        "name":"NOD",
+        "image":"https://cdn.cnc-comm.com/assets/tiberian-sun/nod-thumb.png",
+        "status":""
+      }
+    ]
+  },
+  {
+    "name": "Command & Conquer - Tiberian Sun Firestorm",
+    "image":"https://cdn.cnc-comm.com/assets/tiberian-sun/fscover-thumb.png",
+    "status": "",
+    "platform":"windows",
+    "launcher":"origin",
+    "campaings": [
+      {
+        "name":"GDI",
+        "image":"https://cdn.cnc-comm.com/assets/tiberian-sun/gdi-thumb.png",
+        "status":""
+      },
+      {
+        "name":"NOD",
+        "image":"https://cdn.cnc-comm.com/assets/tiberian-sun/nod-thumb.png",
+        "status":""
+      }
+    ]
+  },
+  {
+    "name": "Command & Conquer - Red Alert 2",
+    "image":"https://cdn.cnc-comm.com/assets/red-alert-2/ra2us.jpg",
+    "status": "",
+    "platform":"windows",
+    "launcher":"origin",
+    "campaings": [
+      {
+        "name":"Allies",
+        "image":"https://cdn.cnc-comm.com/assets/red-alert-2/allies.png",
+        "status":""
+      },
+      {
+        "name":"Sowjets",
+        "image":"https://cdn.cnc-comm.com/assets/red-alert-2/soviet.png",
+        "status":""
+      }
+    ]
+  },
+  {
+    "name": "Chrono Trigger",
+    "image":"https://upload.wikimedia.org/wikipedia/en/a/a7/Chrono_Trigger.jpg",
+    "status": "active",
+    "platform":"rg350"
+  }
+]

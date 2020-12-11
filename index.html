@@ -1,0 +1,90 @@
+<html>
+  <head>
+    <title>My Playlist</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script>
+      let platforms = {
+        windows: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Windows_logo_-_2012.png/700px-Windows_logo_-_2012.png",
+        mac: "https://banner2.cleanpng.com/20180204/gbw/kisspng-macintosh-mac-os-x-lion-macos-macbook-operating-sy-apple-logo-5a77a762126b40.8775341115177910740755.jpg",
+        rg350: "https://images.vexels.com/media/users/3/153179/isolated/preview/881cfd8396ce447e2509fdc76618d870-handheld-spielekonsole-symbol-by-vexels.png"
+      }
+      let launchers = {
+        steam: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Steam_icon_logo.svg/1024px-Steam_icon_logo.svg.png",
+        origin: "https://assets.stickpng.com/thumbs/5b447f12e99939b4572e32c0.png"
+      }
+      $( document ).ready(function() {
+        $.getJSON('./playlist.json', function(data) {
+          for (const game of data) {
+            switch (game.status) {
+              case 'active':
+                $('#active').append(htmlCard(game))
+                break;
+              case 'done':
+                $('#done').append(htmlCard(game))
+                break;
+              default:
+                $('#toplay').append(htmlCard(game))
+                break;
+            }
+          }
+        })
+        function htmlCard(game) {
+          let camps = ''
+          if(game.campaings) {
+            camps = '<ul class="list-group list-group-flush">'
+            for (const camp of game.campaings) {
+              let status = ''
+              if (camp.status) {
+                switch (camp.status) {
+                  case 'done':
+                    status = '<span class="badge bg-success">Done</span>'
+                    break
+                  case 'active':
+                    status = '<span class="badge bg-warning">Active</span>'
+                    break
+                }
+              }
+              camps += `<li class="list-group-item">
+                          <img class="icon" src="${camp.image}" alt="${game.name} - ${camp.name}"/>
+                          ${camp.name}
+                          ${status}
+                        </li>`
+            }
+            camps += '</ul>'
+          }
+          let platform = `<img class="icon" src="${platforms[game.platform]}" alt="${game.platform}"/>`
+          let launcher = game.launcher ? `<img class="icon" src="${launchers[game.launcher]}" alt="${game.launcher}"/>`: ''
+          return `<div class="col">
+                    <div class="card" style="width: 18rem;">
+                      <img src="${game.image}" class="card-img-top" alt="${game.name}">
+                      <div class="card-body">
+                        <h5 class="card-title">${game.name}</h5>
+                      </div>
+                      ${camps}
+                      <div class="card-footer text-muted text-center">${platform} ${launcher}</div>
+                    </div>
+                  </div>`
+        }
+      })
+    </script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <style>
+      .icon {
+        height: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>My Playlist</h1>
+      <h2>Active Games</h2>
+      <div id="active" class="row row-cols-1 row-cols-md-3 g-4"></div>
+      <hr/>
+      <h2>To Play</h2>
+      <div id="toplay" class="row row-cols-1 row-cols-md-3 g-4"></div>
+      <hr/>
+      <h2>Done</h2>
+      <div id="done" class="row row-cols-1 row-cols-md-3 g-4"></div>
+    </div>
+  </body>
+</html>
