@@ -1,6 +1,13 @@
 <html>
   <head>
     <title>My Playlist</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000">
+    <meta name="msapplication-TileColor" content="#000000">
+    <meta name="theme-color" content="#ffffff">
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script>
       let platforms = {
@@ -67,6 +74,7 @@
         }
       })
     </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.3/gh-fork-ribbon.min.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <style>
       .icon {
@@ -75,8 +83,10 @@
     </style>
   </head>
   <body>
+    <a class="github-fork-ribbon" href="https://github.com/DSigmund/my-playlist/" data-ribbon="Fork me on GitHub" title="Fork me on GitHub">Fork me on GitHub</a>
     <div class="container">
-      <h1>My Playlist</h1>
+      <h1><img class="icon" src="icon.png" alt="Logo"/> My Playlist</h1>
+      <hr/>
       <h2>Active Games</h2>
       <div id="active" class="row row-cols-1 row-cols-md-3 g-4"></div>
       <hr/>
