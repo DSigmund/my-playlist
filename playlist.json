@@ -119,6 +119,190 @@
     ]
   },
   {
+    "name": "Command & Conquer: Renegade",
+    "image":"https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co20ig.jpg",
+    "status": "",
+    "platform":"windows",
+    "launcher":"origin"
+  },
+  {
+    "name": "Command & Conquer: Generals",
+    "image":"https://i2.wp.com/www.play-old-pc-games.com/wp-content/uploads/2013/09/command-conquer-generals-deluxe-edition-cover.jpg?fit=750%2C1095&ssl=1",
+    "status": "",
+    "platform":"windows",
+    "launcher":"origin",
+    "campaings": [
+      {
+        "name":"China",
+        "image":"https://static.wikia.nocookie.net/cnc/images/f/fc/China.gif/revision/latest/scale-to-width-down/340?cb=20100925123413",
+        "status":""
+      },
+      {
+        "name":"GLA",
+        "image":"https://static.wikia.nocookie.net/cnc/images/7/7c/Gla.gif/revision/latest/top-crop/width/360/height/450?cb=20101128091822",
+        "status":""
+      },
+      {
+        "name":"USA",
+        "image":"https://i1.sndcdn.com/artworks-000149469510-wh3ab1-t500x500.jpg",
+        "status":""
+      }
+    ]
+  },
+  {
+    "name": "Command & Conquer: Generals: Zero Hour",
+    "image":"https://static.wikia.nocookie.net/cnc/images/2/20/Cncgzh-win-cover.jpg/revision/latest?cb=20170714200121",
+    "status": "",
+    "platform":"windows",
+    "launcher":"origin",
+    "campaings": [
+      {
+        "name":"China",
+        "image":"https://static.wikia.nocookie.net/cnc/images/f/fc/China.gif/revision/latest/scale-to-width-down/340?cb=20100925123413",
+        "status":""
+      },
+      {
+        "name":"GLA",
+        "image":"https://static.wikia.nocookie.net/cnc/images/7/7c/Gla.gif/revision/latest/top-crop/width/360/height/450?cb=20101128091822",
+        "status":""
+      },
+      {
+        "name":"USA",
+        "image":"https://i1.sndcdn.com/artworks-000149469510-wh3ab1-t500x500.jpg",
+        "status":""
+      }
+    ]
+  },
+  {
+    "name": "Command & Conquer 3: Tiberium Wars",
+    "image":"https://images-na.ssl-images-amazon.com/images/I/51U2sXYPVGL.jpg",
+    "status": "",
+    "platform":"windows",
+    "launcher":"origin",
+    "campaings": [
+      {
+        "name":"GDI",
+        "image":"https://cdn.cnc-comm.com/assets/tiberian-sun/gdi-thumb.png",
+        "status":""
+      },
+      {
+        "name":"NOD",
+        "image":"https://cdn.cnc-comm.com/assets/tiberian-sun/nod-thumb.png",
+        "status":""
+      },
+      {
+        "name":"Scrin",
+        "image":"https://static.wikia.nocookie.net/cnc/images/2/27/CNCKW_Scrin_logo.png/revision/latest/top-crop/width/360/height/450?cb=20110611193457",
+        "status":""
+      }
+    ]
+  },
+  {
+    "name": "Command & Conquer 3: Tiberium Wars: Kane's Wrath",
+    "image":"https://static.wikia.nocookie.net/cnc/images/3/36/Cc3kw-win-cover.jpg/revision/latest/top-crop/width/360/height/450?cb=20170928160358",
+    "status": "",
+    "platform":"windows",
+    "launcher":"origin",
+    "campaings": [
+      {
+        "name":"GDI",
+        "image":"https://cdn.cnc-comm.com/assets/tiberian-sun/gdi-thumb.png",
+        "status":""
+      },
+      {
+        "name":"NOD",
+        "image":"https://cdn.cnc-comm.com/assets/tiberian-sun/nod-thumb.png",
+        "status":""
+      },
+      {
+        "name":"Scrin",
+        "image":"https://static.wikia.nocookie.net/cnc/images/2/27/CNCKW_Scrin_logo.png/revision/latest/top-crop/width/360/height/450?cb=20110611193457",
+        "status":""
+      }
+    ]
+  },
+  {
+    "name": "Command & Conquer - Red Alert 3",
+    "image":"https://howlongtobeat.com/games/CnC-RA3-win-cover.jpg",
+    "status": "",
+    "platform":"windows",
+    "launcher":"origin",
+    "campaings": [
+      {
+        "name":"Allies",
+        "image":"https://cdn.cnc-comm.com/assets/red-alert-2/allies.png",
+        "status":""
+      },
+      {
+        "name":"Sowjets",
+        "image":"https://cdn.cnc-comm.com/assets/red-alert-2/soviet.png",
+        "status":""
+      },
+      {
+        "name":"Empire",
+        "image":"https://static.wikia.nocookie.net/cnc/images/d/df/RisingSunFlag.jpg/revision/latest/top-crop/width/360/height/450?cb=20200710075552",
+        "status":""
+      }
+    ]
+  },
+  {
+    "name": "Command & Conquer - Red Alert 3: Uprising",
+    "image":"https://static.wikia.nocookie.net/cnc/images/4/4a/RA3UprisingPack.jpg/revision/latest?cb=20170928161736",
+    "status": "",
+    "platform":"windows",
+    "launcher":"origin",
+    "campaings": [
+      {
+        "name":"Allies",
+        "image":"https://cdn.cnc-comm.com/assets/red-alert-2/allies.png",
+        "status":""
+      },
+      {
+        "name":"Sowjets",
+        "image":"https://cdn.cnc-comm.com/assets/red-alert-2/soviet.png",
+        "status":""
+      },
+      {
+        "name":"Empire",
+        "image":"https://static.wikia.nocookie.net/cnc/images/d/df/RisingSunFlag.jpg/revision/latest/top-crop/width/360/height/450?cb=20200710075552",
+        "status":""
+      }
+    ]
+  },
+  {
+    "name": "Command & Conquer 4: Tiberian Twilight",
+    "image":"https://static.cgames.de/pv/m.media-amazon.com/images/I/51cRSGNsffL.jpg",
+    "status": "",
+    "platform":"windows",
+    "launcher":"origin",
+    "campaings": [
+      {
+        "name":"GDI",
+        "image":"https://cdn.cnc-comm.com/assets/tiberian-sun/gdi-thumb.png",
+        "status":""
+      },
+      {
+        "name":"NOD",
+        "image":"https://cdn.cnc-comm.com/assets/tiberian-sun/nod-thumb.png",
+        "status":""
+      }
+    ]
+  },
+  {
+    "name": "Act of War",
+    "image":"https://s3.gaming-cdn.com/images/products/7214/orig/act-of-war-direct-action-cover.jpg",
+    "status": "",
+    "platform":"windows",
+    "launcher":"steam"
+  },
+  {
+    "name": "Act of War - High Treason",
+    "image":"https://images-na.ssl-images-amazon.com/images/I/5191XHQEBGL._SY445_.jpg",
+    "status": "",
+    "platform":"windows",
+    "launcher":"steam"
+  },
+  {
     "name": "Chrono Trigger",
     "image":"https://upload.wikimedia.org/wikipedia/en/a/a7/Chrono_Trigger.jpg",
     "status": "active",
