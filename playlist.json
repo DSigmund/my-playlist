@@ -448,6 +448,13 @@
     "launcher":"steam"
   },
   {
+    "name": "Silent Storm",
+    "image":"https://i.ebayimg.com/images/g/kykAAOSwKVVbL2pR/s-l400.jpg",
+    "status": "",
+    "platform":"windows",
+    "launcher":"steam"
+  },
+  {
     "name": "Final Fantasy VI",
     "image":"https://hb.imgix.net/61bff793180c2c360d4418d3bc02ca97bc6c5c8d.jpeg?auto=compress,format&fit=crop&h=353&w=616&s=aa4a61a4348a0e56c282e69b93445251",
     "status": "",
