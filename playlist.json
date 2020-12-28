@@ -28,12 +28,12 @@
       {
         "name":"sowjets",
         "image":"https://cdn.cnc-comm.com/assets/red-alert/soviet.png",
-        "status":"active"
+        "status":"done"
       },
       {
         "name":"allied",
         "image":"https://cdn.cnc-comm.com/assets/red-alert/allies.png",
-        "status":""
+        "status":"active"
       }
     ]
   },
