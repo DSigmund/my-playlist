@@ -21,7 +21,7 @@
   {
     "name": "Command & Conquer - Red Alert",
     "image":"https://cdn.cnc-comm.com/assets/red-alert/rascan-thumb.png",
-    "status": "active",
+    "status": "done",
     "platform":"windows",
     "launcher":"origin",
     "campaings": [
@@ -33,21 +33,21 @@
       {
         "name":"allied",
         "image":"https://cdn.cnc-comm.com/assets/red-alert/allies.png",
-        "status":"active"
+        "status":"done"
       }
     ]
   },
   {
     "name": "Command & Conquer - Tiberian Sun",
     "image":"https://cdn.cnc-comm.com/assets/tiberian-sun/tsbox-thumb.png",
-    "status": "",
+    "status": "active",
     "platform":"windows",
     "launcher":"origin",
     "campaings": [
       {
         "name":"GDI",
         "image":"https://cdn.cnc-comm.com/assets/tiberian-sun/gdi-thumb.png",
-        "status":""
+        "status":"active"
       },
       {
         "name":"NOD",
