@@ -79,10 +79,10 @@ body,
 .launcher {
   position:absolute;
   bottom: 2px;
-  left: 2px;
+  left: 42px;
 }
 .platform {
   position:absolute;
   bottom: 2px;
-  left: 40px;
+  left: 2px;
 }
