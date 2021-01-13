@@ -108,14 +108,13 @@
             <?php endif; ?>
             <?php if($item->status == "done"):?>
               <div class="ribbon ribbon-top-right ribbon-done"><span><?php echo $item->status;?></span></div>
-            <?php endif; ?>           
-              <img src="<?php echo $item->image;?>" class="card-img-top" alt="<?php echo $item->name;?>">
-              <?php echo drawSubItems($item);?>
-              <div class="card-footer text-muted text-center">
-                <img class="icon" src="assets/types/<?php echo $item->type;?>.png" alt="<?php echo $item->type;?>"/>
-                <img class="icon" src="assets/platforms/<?php echo $item->platform;?>.png" alt="<?php echo $item->platform;?>"/>
-                <img class="icon" src="assets/launchers/<?php echo $item->launcher;?>.png" alt="<?php echo $item->launcher;?>"/>
+            <?php endif; ?> 
+              <div class="images">          
+                <img src="<?php echo $item->image;?>" class="card-img-top" alt="<?php echo $item->name;?>">
+                <img class="icon launcher" src="assets/launchers/<?php echo $item->launcher;?>.png" alt="<?php echo $item->launcher;?>"/>
+                <img class="icon platform" src="assets/platforms/<?php echo $item->platform;?>.png" alt="<?php echo $item->platform;?>"/>
               </div>
+              <?php echo drawSubItems($item);?>
             </div>
           </div>
         <?php endforeach; ?>

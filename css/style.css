@@ -16,6 +16,7 @@ body,
   height: 150px;
   overflow: hidden;
   position: absolute;
+  z-index: 99;
 }
 .ribbon::before,
 .ribbon::after {
@@ -66,12 +67,22 @@ body,
   transform: rotate(45deg);
 }
 
-.list-group,
-.card-footer {
-  display:none;
-}
 
-.card:hover>.list-group,
-.card:hover>.card-footer {
-  display:block;
+.images {
+  position: relative;
+}
+.card-img-top {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.launcher {
+  position:absolute;
+  bottom: 2px;
+  left: 2px;
+}
+.platform {
+  position:absolute;
+  bottom: 2px;
+  left: 40px;
 }
