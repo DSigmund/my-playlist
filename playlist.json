@@ -1,24 +1,4 @@
 [
-
-  {
-    "name": "Command & Conquer - Red Alert 2",
-    "image":"https://cdn.cnc-comm.com/assets/red-alert-2/ra2us.jpg",
-    "status": "",
-    "platform":"windows",
-    "launcher":"origin",
-    "campaings": [
-      {
-        "name":"Allies",
-        "image":"https://cdn.cnc-comm.com/assets/red-alert-2/allies.png",
-        "status":""
-      },
-      {
-        "name":"Sowjets",
-        "image":"https://cdn.cnc-comm.com/assets/red-alert-2/soviet.png",
-        "status":""
-      }
-    ]
-  },
   {
     "name": "Command & Conquer - Red Alert 2 Yuris Revenge",
     "image":"https://cdn.cnc-comm.com/assets/red-alert-2/yrus-thumb.png",
@@ -42,13 +22,6 @@
         "status":""
       }
     ]
-  },
-  {
-    "name": "Command & Conquer: Renegade",
-    "image":"https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co20ig.jpg",
-    "status": "",
-    "platform":"windows",
-    "launcher":"origin"
   },
   {
     "name": "Command & Conquer: Generals",
@@ -263,20 +236,6 @@
     "launcher":"steam"
   },
   {
-    "name": "Empire Earth",
-    "image":"https://4images.cgames.de/images/gamestar/4/empire-earth_1779113.jpg",
-    "status": "",
-    "platform":"windows",
-    "launcher":"steam"
-  },
-  {
-    "name": "Empire Earth II",
-    "image":"https://m.media-amazon.com/images/I/51JXTJ9XNRL._SY445_.jpg",
-    "status": "",
-    "platform":"windows",
-    "launcher":"steam"
-  },
-  {
     "name": "Empire Earth III",
     "image":"https://images-na.ssl-images-amazon.com/images/I/51Suy-gkKnL._AC_SY445_.jpg",
     "status": "",
@@ -373,22 +332,16 @@
     "platform":"windows",
     "launcher":"steam"
   },
-  {
-    "name": "Final Fantasy VI",
-    "image":"https://hb.imgix.net/61bff793180c2c360d4418d3bc02ca97bc6c5c8d.jpeg?auto=compress,format&fit=crop&h=353&w=616&s=aa4a61a4348a0e56c282e69b93445251",
-    "status": "",
-    "platform":"rg350"
-  },
-  {
-    "name": "Secret of Mana",
-    "image":"https://steamcdn-a.akamaihd.net/steam/apps/637670/capsule_616x353.jpg?t=1588178825",
-    "status": "",
-    "platform":"rg350"
-  },
-  {
-    "name": "Secret of Evermore",
-    "image":"https://upload.wikimedia.org/wikipedia/en/9/99/Secret_of_Evermore.jpg",
-    "status": "",
-    "platform":"rg350"
-  }
+
 ]
+
+Attack On Titan
+
+Snowpiercer Season 2
+Disenchantment Season 3
+Star Trek Lower Decks
+The Expanse Season 5
+WWE TLC 2020
+The Mandalorian
+
+BOOKS
